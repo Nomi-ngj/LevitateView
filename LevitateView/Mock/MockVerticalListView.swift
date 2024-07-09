@@ -8,9 +8,12 @@
 import SwiftUI
 
 public struct MockVerticalListView: View {
+    
+    public init() {} // Make the initializer public
+        
     public var body: some View {
         VStack(spacing: 12){
-            ForEach(1...30,id: \.self) {index in
+            ForEach(1...50,id: \.self) {index in
                 HStack(spacing: 15){
                     ZStack{
                         Circle()

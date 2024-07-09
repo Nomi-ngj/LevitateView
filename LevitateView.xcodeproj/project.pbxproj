@@ -15,8 +15,19 @@
 		8C95FAFA2C3D0BF500E849E2 /* MockVerticalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAF92C3D0BF500E849E2 /* MockVerticalListView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8C825E1F2C3D218D0026729C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C825E1B2C3D218D0026729C /* LevitateViewUsage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C825DF32C3D20790026729C;
+			remoteInfo = LevitateViewUsage;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8C825DE82C3D0D960026729C /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		8C825E1B2C3D218D0026729C /* LevitateViewUsage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LevitateViewUsage.xcodeproj; path = LevitateViewUsage/LevitateViewUsage.xcodeproj; sourceTree = "<group>"; };
 		8C95FAE32C3D06FB00E849E2 /* LevitateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LevitateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C95FAE62C3D06FB00E849E2 /* LevitateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevitateView.h; sourceTree = "<group>"; };
 		8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LevitateView.docc; sourceTree = "<group>"; };
@@ -45,9 +56,18 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		8C825E1C2C3D218D0026729C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C825E202C3D218D0026729C /* LevitateViewUsage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8C95FAD92C3D06FB00E849E2 = {
 			isa = PBXGroup;
 			children = (
+				8C825E1B2C3D218D0026729C /* LevitateViewUsage.xcodeproj */,
 				8C95FAE52C3D06FB00E849E2 /* LevitateView */,
 				8C95FAE42C3D06FB00E849E2 /* Products */,
 				8C95FAEF2C3D070E00E849E2 /* Frameworks */,
@@ -156,12 +176,28 @@
 			mainGroup = 8C95FAD92C3D06FB00E849E2;
 			productRefGroup = 8C95FAE42C3D06FB00E849E2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8C825E1C2C3D218D0026729C /* Products */;
+					ProjectRef = 8C825E1B2C3D218D0026729C /* LevitateViewUsage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8C95FAE22C3D06FB00E849E2 /* LevitateView */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8C825E202C3D218D0026729C /* LevitateViewUsage.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LevitateViewUsage.app;
+			remoteRef = 8C825E1F2C3D218D0026729C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8C95FAE12C3D06FB00E849E2 /* Resources */ = {
@@ -329,6 +365,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +399,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
