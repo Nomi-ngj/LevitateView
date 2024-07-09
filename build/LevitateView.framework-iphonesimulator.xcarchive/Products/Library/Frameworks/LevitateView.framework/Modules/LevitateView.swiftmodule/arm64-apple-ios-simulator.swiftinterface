@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name LevitateView
+@_exported import LevitateView
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct MockVerticalListView : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12LevitateView016MockVerticalListB0V4bodyQrvp", 0) __
+}
+public struct LevitatingViewModel {
+  public var image: SwiftUI.Image
+  public var levitateBottomPadding: CoreFoundation.CGFloat
+  public var levitateScrollOffset: CoreFoundation.CGFloat
+  public var colorBackground: SwiftUI.Color
+  public var colorForeground: SwiftUI.Color
+  public init(image: SwiftUI.Image = Image(systemName: "arrow.up"), levitateBottomPadding: CoreFoundation.CGFloat = 20, levitateScrollOffset: CoreFoundation.CGFloat = 250, colorBackground: SwiftUI.Color = .red, colorForeground: SwiftUI.Color = .white)
+}
+@propertyWrapper public struct LevitatingView<Content> : SwiftUI.View where Content : SwiftUI.View {
+  public let wrappedValue: Content
+  public let model: LevitateView.LevitatingViewModel!
+  public init(content: Content, dataModel: LevitateView.LevitatingViewModel = LevitatingViewModel())
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12LevitateView010LevitatingB0V4bodyQrvp", 0) __<Content>
+}

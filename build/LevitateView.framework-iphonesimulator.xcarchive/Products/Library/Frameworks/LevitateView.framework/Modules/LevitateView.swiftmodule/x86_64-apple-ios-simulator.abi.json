@@ -1,0 +1,958 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LevitateView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MockVerticalListView",
+        "printedName": "MockVerticalListView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MockVerticalListView",
+                "printedName": "LevitateView.MockVerticalListView",
+                "usr": "s:12LevitateView016MockVerticalListB0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12LevitateView016MockVerticalListB0VACycfc",
+            "mangledName": "$s12LevitateView016MockVerticalListB0VACycfc",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView016MockVerticalListB0V4bodyQrvp",
+            "mangledName": "$s12LevitateView016MockVerticalListB0V4bodyQrvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView016MockVerticalListB0V4bodyQrvg",
+                "mangledName": "$s12LevitateView016MockVerticalListB0V4bodyQrvg",
+                "moduleName": "LevitateView",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12LevitateView016MockVerticalListB0V",
+        "mangledName": "$s12LevitateView016MockVerticalListB0V",
+        "moduleName": "LevitateView",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LevitateView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevitatingViewModel",
+        "printedName": "LevitatingViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvp",
+            "mangledName": "$s12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvg",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvg",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvs",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvs",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvM",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV5image7SwiftUI5ImageVvM",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "levitateBottomPadding",
+            "printedName": "levitateBottomPadding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB5ModelV21levitateBottomPadding14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s12LevitateView010LevitatingB5ModelV21levitateBottomPadding12CoreGraphics7CGFloatVvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV21levitateBottomPadding14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV21levitateBottomPadding12CoreGraphics7CGFloatVvg",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV21levitateBottomPadding14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV21levitateBottomPadding12CoreGraphics7CGFloatVvs",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV21levitateBottomPadding14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV21levitateBottomPadding12CoreGraphics7CGFloatVvM",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "levitateScrollOffset",
+            "printedName": "levitateScrollOffset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB5ModelV20levitateScrollOffset14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s12LevitateView010LevitatingB5ModelV20levitateScrollOffset12CoreGraphics7CGFloatVvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV20levitateScrollOffset14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV20levitateScrollOffset12CoreGraphics7CGFloatVvg",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV20levitateScrollOffset14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV20levitateScrollOffset12CoreGraphics7CGFloatVvs",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV20levitateScrollOffset14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV20levitateScrollOffset12CoreGraphics7CGFloatVvM",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorBackground",
+            "printedName": "colorBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvp",
+            "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvg",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvg",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvs",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvs",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvM",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorBackground7SwiftUI5ColorVvM",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorForeground",
+            "printedName": "colorForeground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvp",
+            "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvg",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvg",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvs",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvs",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvM",
+                "mangledName": "$s12LevitateView010LevitatingB5ModelV15colorForeground7SwiftUI5ColorVvM",
+                "moduleName": "LevitateView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:levitateBottomPadding:levitateScrollOffset:colorBackground:colorForeground:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevitatingViewModel",
+                "printedName": "LevitateView.LevitatingViewModel",
+                "usr": "s:12LevitateView010LevitatingB5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12LevitateView010LevitatingB5ModelV5image21levitateBottomPadding0F12ScrollOffset15colorBackground0K10ForegroundAC7SwiftUI5ImageV_14CoreFoundation7CGFloatVAnI5ColorVAPtcfc",
+            "mangledName": "$s12LevitateView010LevitatingB5ModelV5image21levitateBottomPadding0F12ScrollOffset15colorBackground0K10ForegroundAC7SwiftUI5ImageV_12CoreGraphics7CGFloatVAnI5ColorVAPtcfc",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12LevitateView010LevitatingB5ModelV",
+        "mangledName": "$s12LevitateView010LevitatingB5ModelV",
+        "moduleName": "LevitateView",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LevitateView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LevitateView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevitatingView",
+        "printedName": "LevitatingView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB0V12wrappedValuexvp",
+            "mangledName": "$s12LevitateView010LevitatingB0V12wrappedValuexvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB0V12wrappedValuexvg",
+                "mangledName": "$s12LevitateView010LevitatingB0V12wrappedValuexvg",
+                "moduleName": "LevitateView",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "LevitateView.LevitatingViewModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LevitatingViewModel",
+                    "printedName": "LevitateView.LevitatingViewModel",
+                    "usr": "s:12LevitateView010LevitatingB5ModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB0V5modelAA0cB5ModelVSgvp",
+            "mangledName": "$s12LevitateView010LevitatingB0V5modelAA0cB5ModelVSgvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "LevitateView.LevitatingViewModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LevitatingViewModel",
+                        "printedName": "LevitateView.LevitatingViewModel",
+                        "usr": "s:12LevitateView010LevitatingB5ModelV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB0V5modelAA0cB5ModelVSgvg",
+                "mangledName": "$s12LevitateView010LevitatingB0V5modelAA0cB5ModelVSgvg",
+                "moduleName": "LevitateView",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:dataModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevitatingView",
+                "printedName": "LevitateView.LevitatingView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12LevitateView010LevitatingB0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LevitatingViewModel",
+                "printedName": "LevitateView.LevitatingViewModel",
+                "hasDefaultArg": true,
+                "usr": "s:12LevitateView010LevitatingB5ModelV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12LevitateView010LevitatingB0V7content9dataModelACyxGx_AA0cbF0Vtcfc",
+            "mangledName": "$s12LevitateView010LevitatingB0V7content9dataModelACyxGx_AA0cbF0Vtcfc",
+            "moduleName": "LevitateView",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LevitateView010LevitatingB0V4bodyQrvp",
+            "mangledName": "$s12LevitateView010LevitatingB0V4bodyQrvp",
+            "moduleName": "LevitateView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LevitateView010LevitatingB0V4bodyQrvg",
+                "mangledName": "$s12LevitateView010LevitatingB0V4bodyQrvg",
+                "moduleName": "LevitateView",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12LevitateView010LevitatingB0V",
+        "mangledName": "$s12LevitateView010LevitatingB0V",
+        "moduleName": "LevitateView",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/noumanguljunejo\/Desktop\/Repo's\/Inpiration Repo's\/LevitateView Swift\/LevitateView\/LevitateView\/Model\/LevitatingViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 10,
+      "value": "\"arrow.up\""
+    },
+    {
+      "filePath": "\/Users\/noumanguljunejo\/Desktop\/Repo's\/Inpiration Repo's\/LevitateView Swift\/LevitateView\/LevitateView\/Model\/LevitatingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/noumanguljunejo\/Desktop\/Repo's\/Inpiration Repo's\/LevitateView Swift\/LevitateView\/LevitateView\/Model\/LevitatingViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/noumanguljunejo\/Desktop\/Repo's\/Inpiration Repo's\/LevitateView Swift\/LevitateView\/LevitateView\/LevitatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/noumanguljunejo\/Desktop\/Repo's\/Inpiration Repo's\/LevitateView Swift\/LevitateView\/LevitateView\/LevitatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
