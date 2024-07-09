@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C825DE92C3D0D960026729C /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C825DE82C3D0D960026729C /* View+Ext.swift */; };
 		8C95FAE82C3D06FB00E849E2 /* LevitateView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */; };
 		8C95FAE92C3D06FB00E849E2 /* LevitateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C95FAE62C3D06FB00E849E2 /* LevitateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C95FAF32C3D080D00E849E2 /* LevitatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAF22C3D080D00E849E2 /* LevitatingView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C825DE82C3D0D960026729C /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		8C95FAE32C3D06FB00E849E2 /* LevitateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LevitateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C95FAE62C3D06FB00E849E2 /* LevitateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevitateView.h; sourceTree = "<group>"; };
 		8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LevitateView.docc; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C825DE72C3D0D880026729C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C825DE82C3D0D960026729C /* View+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		8C95FAD92C3D06FB00E849E2 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		8C95FAE52C3D06FB00E849E2 /* LevitateView */ = {
 			isa = PBXGroup;
 			children = (
+				8C825DE72C3D0D880026729C /* Extension */,
 				8C95FAF82C3D0BE900E849E2 /* Mock */,
 				8C95FAF52C3D092400E849E2 /* Model */,
 				8C95FAE62C3D06FB00E849E2 /* LevitateView.h */,
@@ -169,6 +180,7 @@
 			files = (
 				8C95FAFA2C3D0BF500E849E2 /* MockVerticalListView.swift in Sources */,
 				8C95FAF72C3D093000E849E2 /* LevitatingViewModel.swift in Sources */,
+				8C825DE92C3D0D960026729C /* View+Ext.swift in Sources */,
 				8C95FAF32C3D080D00E849E2 /* LevitatingView.swift in Sources */,
 				8C95FAE82C3D06FB00E849E2 /* LevitateView.docc in Sources */,
 			);

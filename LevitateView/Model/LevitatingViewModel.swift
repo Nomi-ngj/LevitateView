@@ -16,8 +16,8 @@ public struct LevitatingViewModel {
 
     // Initializer with default values
     public init(image: Image = Image(systemName: "arrow.up"),
-                levitateBottomPadding: CGFloat = 0,
-                levitateScrollOffset: CGFloat = 0,
+                levitateBottomPadding: CGFloat = 20,
+                levitateScrollOffset: CGFloat = 250,
                 colorBackground: Color = .red,
                 colorForeground: Color = .white) {
         self.image = image
