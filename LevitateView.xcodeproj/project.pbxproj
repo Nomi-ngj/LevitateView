@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C95FAE82C3D06FB00E849E2 /* LevitateView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */; };
 		8C95FAE92C3D06FB00E849E2 /* LevitateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C95FAE62C3D06FB00E849E2 /* LevitateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C95FAF32C3D080D00E849E2 /* LevitatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAF22C3D080D00E849E2 /* LevitatingView.swift */; };
+		8C95FAF72C3D093000E849E2 /* LevitatingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAF62C3D093000E849E2 /* LevitatingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		8C95FAE62C3D06FB00E849E2 /* LevitateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevitateView.h; sourceTree = "<group>"; };
 		8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LevitateView.docc; sourceTree = "<group>"; };
 		8C95FAF02C3D070E00E849E2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		8C95FAF22C3D080D00E849E2 /* LevitatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitatingView.swift; sourceTree = "<group>"; };
+		8C95FAF62C3D093000E849E2 /* LevitatingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitatingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +53,10 @@
 		8C95FAE52C3D06FB00E849E2 /* LevitateView */ = {
 			isa = PBXGroup;
 			children = (
+				8C95FAF52C3D092400E849E2 /* Model */,
 				8C95FAE62C3D06FB00E849E2 /* LevitateView.h */,
 				8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */,
+				8C95FAF22C3D080D00E849E2 /* LevitatingView.swift */,
 			);
 			path = LevitateView;
 			sourceTree = "<group>";
@@ -61,6 +67,14 @@
 				8C95FAF02C3D070E00E849E2 /* Accelerate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C95FAF52C3D092400E849E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C95FAF62C3D093000E849E2 /* LevitatingViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C95FAF72C3D093000E849E2 /* LevitatingViewModel.swift in Sources */,
+				8C95FAF32C3D080D00E849E2 /* LevitatingView.swift in Sources */,
 				8C95FAE82C3D06FB00E849E2 /* LevitateView.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
