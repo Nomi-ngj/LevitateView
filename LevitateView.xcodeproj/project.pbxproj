@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C825DE92C3D0D960026729C /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C825DE82C3D0D960026729C /* View+Ext.swift */; };
-		8C825E272C3DA7700026729C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8C825E262C3DA7700026729C /* LICENSE */; };
+		8C825E292C3DAC810026729C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8C825E282C3DAC810026729C /* LICENSE */; };
 		8C95FAE82C3D06FB00E849E2 /* LevitateView.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */; };
 		8C95FAE92C3D06FB00E849E2 /* LevitateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C95FAE62C3D06FB00E849E2 /* LevitateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C95FAF32C3D080D00E849E2 /* LevitatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95FAF22C3D080D00E849E2 /* LevitatingView.swift */; };
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		8C825DE82C3D0D960026729C /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		8C825E1B2C3D218D0026729C /* LevitateViewUsage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LevitateViewUsage.xcodeproj; path = LevitateViewUsage/LevitateViewUsage.xcodeproj; sourceTree = "<group>"; };
-		8C825E262C3DA7700026729C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8C825E282C3DAC810026729C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		8C95FAE32C3D06FB00E849E2 /* LevitateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LevitateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C95FAE62C3D06FB00E849E2 /* LevitateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevitateView.h; sourceTree = "<group>"; };
 		8C95FAE72C3D06FB00E849E2 /* LevitateView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LevitateView.docc; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		8C95FAE52C3D06FB00E849E2 /* LevitateView */ = {
 			isa = PBXGroup;
 			children = (
-				8C825E262C3DA7700026729C /* LICENSE */,
+				8C825E282C3DAC810026729C /* LICENSE */,
 				8C825DE72C3D0D880026729C /* Extension */,
 				8C95FAF82C3D0BE900E849E2 /* Mock */,
 				8C95FAF52C3D092400E849E2 /* Model */,
@@ -207,7 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C825E272C3DA7700026729C /* LICENSE in Resources */,
+				8C825E292C3DAC810026729C /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +369,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +381,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NGiDeveloper.LevitateView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -403,7 +405,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +417,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NGiDeveloper.LevitateView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
