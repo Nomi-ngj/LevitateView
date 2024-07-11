@@ -12,24 +12,6 @@ Smooth Animations: Provides a smooth scrolling experience with customizable anim
 **iOS** 14.0+ <br>
 **Swift** 5.0+
 
-
-### Video Demonstrations
-Here are video demonstrations of LevitateView in action, showing both dark mode and light mode:
-
-Light Mode <br>
-
-https://github.com/Nomi-ngj/LevitateView/assets/17121200/092cdd28-8fb5-48d5-b74a-7523cca48129
-
-Dark Mode <br>
-
-https://github.com/Nomi-ngj/LevitateView/assets/17121200/f6f19b65-601f-4aca-bf59-7b401339996c
-
-
-
-
-
-
-
 ### Example
 Here's an example of how to use LevitateView in your project:
 
@@ -63,7 +45,19 @@ You can customize the appearance and behavior of the scroll-to-top button by mod
 >**colorForeground:** The color of the icon.<br>
 >**colorBackground:** The background color of the button.<br>
 >**levitateBottomPadding:** The padding from the bottom of the screen.<br>
->**levitateScrollOffset:** The offset threshold at which the button appears.<br>
+>**levitateScrollOffset:** The offset threshold at which the button appears.<be>
+
+
+### Video Demonstrations
+Here are video demonstrations of LevitateView in action, showing both dark mode and light mode:
+
+**Light Mode** <br>
+
+https://github.com/Nomi-ngj/LevitateView/assets/17121200/092cdd28-8fb5-48d5-b74a-7523cca48129
+
+**Dark Mode** <br>
+
+https://github.com/Nomi-ngj/LevitateView/assets/17121200/f6f19b65-601f-4aca-bf59-7b401339996c
 
 ### License <br>
 LevitateView is released under the MIT license. See LICENSE for details. <br>
