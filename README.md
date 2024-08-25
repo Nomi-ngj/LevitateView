@@ -53,7 +53,7 @@ Here are video demonstrations of LevitateView in action, showing both dark mode 
 
 **Light Mode** <br>
 
-[](https://github.com/Nomi-ngj/LevitateView/assets/17121200/092cdd28-8fb5-48d5-b74a-7523cca48129)
+![Light Mode](https://github.com/Nomi-ngj/LevitateView/assets/17121200/092cdd28-8fb5-48d5-b74a-7523cca48129)
 
 **Dark Mode** <br>
 
