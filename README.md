@@ -57,7 +57,7 @@ Here are video demonstrations of LevitateView in action, showing both dark mode 
 
 **Dark Mode** <br>
 
-https://github.com/Nomi-ngj/LevitateView/assets/17121200/f6f19b65-601f-4aca-bf59-7b401339996c
+![Dark Mode](https://github.com/Nomi-ngj/LevitateView/assets/17121200/f6f19b65-601f-4aca-bf59-7b401339996c)
 
 ### License <br>
 LevitateView is released under the MIT license. See LICENSE for details. <br>
